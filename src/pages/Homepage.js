@@ -106,7 +106,7 @@ const Homepage = () => {
                 </div>
             </div>
             
-            <img src={img4} alt='img4'/>
+            <img src={img4} alt='img4' id='mdd'/>
 
             <div className='section-5'>
                 <div className='sec-5'>

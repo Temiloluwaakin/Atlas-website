@@ -122,6 +122,7 @@
 
 
 
+
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
 .section-three{
     padding-top: 100px;
@@ -205,7 +206,6 @@
 
 
 
-
 /*//////////////////////////////////////////////////////////////////////////////////////////////*/
 .section-5{
     background: linear-gradient(180deg, #F9EFFA 0%, rgba(249, 239, 250, 0.97) 100%);
@@ -236,4 +236,102 @@
     left: 65%;
     z-index: 1; 
     box-shadow: 0px 4px 32px 0px rgba(18, 18, 18, 0.5);
+}
+
+
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 660px) {
+    #htwo{
+        font-size: 33px;
+        padding-top: 170px;
+        line-height: 20px;
+    }
+    .section-one img{
+        width: 350px;
+    }
+    .section-one p{
+        width: 90%;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .section-two h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .section-two h2{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .section-two p{
+        font-size: 16px;
+        line-height: 25px;
+        width: 90%;
+    }
+    .section-three .tble{
+        gap: 40px;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 20px 0px;
+    }
+    .tble-lft{
+        flex: 35%;
+        font-size: 18px;
+    }
+    .tble-rt{
+        flex: 50%;
+        font-size: 12px;
+    }
+    .img-sec{
+        width: 90%;
+        margin: 50px auto 0px auto;
+    }
+    .img-sec p{
+        font-size: 10px;
+    }
+    .section-4{
+        padding-bottom: 50px;
+    }
+    .sec-4{
+        width: 90%;
+        padding-top: 30px;
+    }
+    .section-4 h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .section-4 h2{
+        font-size: 25px;
+        line-height: 24px;
+    }
+    .section-4 p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    #mdd{width: 100%;}
+    .sec-5{
+        padding: 0px 0px 30px 0px;
+        width: 90%;
+    }
+    #card2{
+        width: 45%;
+    }
+    #card3{
+        height: 50%;
+        top: 25px;
+    }
+    #card3 img{
+        height: 100px;
+    }
+    #card4{
+        height: 50%;
+        top: 25px;
+        left: 65px;
+    }
+    #card4 img{
+        height: 100px;
+    }
 }

@@ -2,6 +2,7 @@
   width: 100%;
   font-family: 'Averia Serif Libre', serif;
   position: relative;
+  overflow: hidden;
 }
 
 body{
